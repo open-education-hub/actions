@@ -1,7 +1,7 @@
 name: 'Checkpatch'
 description: 'Run checkpatch.pl with configured options'
 inputs:
-  github_token:
+  GITHUB_TOKEN:
     description: 'GitHub token'
     default: ''
     required: false
@@ -26,4 +26,4 @@ runs:
     - name: Run checkpatch review
       uses: webispy/checkpatch-action@v9
       env:
-        GITHUB_TOKEN: ${{ inputs.github_token }}
+        GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}
