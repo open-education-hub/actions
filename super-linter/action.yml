@@ -1,0 +1,43 @@
+name: Super-Linter
+description: Lint code base using GitHub Super-Linter
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    default: ''
+    required: true
+  DEFAULT_BRANCH:
+    description: 'Default branch to use for validation'
+    default: 'master'
+    required: false
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+      with:
+        # Full git history is needed to get a proper list of changed files within `super-linter`
+        fetch-depth: 0
+    
+    - name: Setup Environment
+      shell: bash
+      run: |
+        wget -O config-action.zip -q https://github.com/security-summer-school/actions/archive/refs/heads/main.zip
+        unzip -q config-action.zip -d config-action
+        mkdir .linter-config
+        mv config-action/actions-main/super-linter/* .linter-config
+        mv config-action/actions-main/super-linter/.jscpd.json .linter-config
+
+    - name: Lint Code Base
+      uses: github/super-linter/slim@v4
+      env:
+        # Don't check already existent files
+        VALIDATE_ALL_CODEBASE: false
+        VALIDATE_GITHUB_ACTIONS: false
+        VALIDATE_CLANG_FORMAT: false
+        VALIDATE_BASH_EXEC: false
+        LINTER_RULES_PATH: /.linter-config/
+        MARKDOWN_CONFIG_FILE: config/config.json
+        MARKDOWN_CUSTOM_RULE_GLOBS: rules/rules.js
+        DEFAULT_BRANCH: ${{ inputs.DEFAULT_BRANCH }}
+        GITHUB_TOKEN: ${{ inputs.GITHUB_TOKEN }}
