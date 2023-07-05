@@ -36,6 +36,14 @@ runs:
         VALIDATE_GITHUB_ACTIONS: false
         VALIDATE_CLANG_FORMAT: false
         VALIDATE_BASH_EXEC: false
+        VALIDATE_HTML: false
+        VALIDATE_CSS: false
+        VALIDATE_PYTHON_FLAKE8: false
+        VALIDATE_PYTHON_ISORT: false
+        VALIDATE_PYTHON_MYPY: false
+        VALIDATE_PYTHON_PYLINT: false
+        VALIDATE_PHP_PSALM: false
+        VALIDATE_PHP_PHPCS: false
         LINTER_RULES_PATH: /.linter-config/
         MARKDOWN_CONFIG_FILE: config/config.json
         MARKDOWN_CUSTOM_RULE_GLOBS: rules/rules.js
