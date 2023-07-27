@@ -45,6 +45,7 @@ runs:
         VALIDATE_PHP_PSALM: false
         VALIDATE_PHP_PHPCS: false
         LINTER_RULES_PATH: /.linter-config/
+        DOCKERFILE_HADOLINT_FILE_NAME: config/hadolint.yml
         MARKDOWN_CONFIG_FILE: config/config.json
         MARKDOWN_CUSTOM_RULE_GLOBS: rules/rules.js
         DEFAULT_BRANCH: ${{ inputs.DEFAULT_BRANCH }}
