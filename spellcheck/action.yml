@@ -1,0 +1,26 @@
+name: 'Spellcheck'
+description: Check for spelling mistakes
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    default: ''
+    required: false
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Setup Environment
+      shell: bash
+      run: |
+        wget -O config-action.zip -q https://github.com/security-summer-school/actions/archive/refs/heads/main.zip
+        unzip -q config-action.zip -d config-action
+        mv config-action/actions-main/spellcheck/config/spellcheck.yml .spellcheck.yml
+
+    - name: Spellcheck
+      uses: rojopolis/spellcheck-github-actions@v0
+      with:
+        config_path: .spellcheck.yml
+        task_name: Markdown
