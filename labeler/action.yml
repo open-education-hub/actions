@@ -20,6 +20,9 @@ runs:
         mkdir .labeler
         mv config-action/actions-main/labeler/* .labeler
 
+    - name: Add topic and area labels
+      uses: actions/labeler@v4
+
     - name: Add kind labels
       uses: actions/github-script@v6
       with:
