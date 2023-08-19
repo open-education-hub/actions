@@ -4,6 +4,6 @@ This repository contains a collection of actions for GitHub that can be used in 
 
 ## 📦 Actions
 
-- **Checkpatch** - Checks the code style
-- **Super-Linter** - Checks the code style
-- **Labeler** - Adds labels to pull requests
+- **`Checkpatch`** - Checks the code style
+- **`Super-Linter`** - Checks the code style
+- **`Labeler`** - Adds labels to pull requests
