@@ -10,6 +10,7 @@
     ]
   },
   "MD035": false,
+  "MD041": false,
   "MD046": { "style": "fenced" },
   "MD048": { "style": "backtick" },
   "line-length": false,
