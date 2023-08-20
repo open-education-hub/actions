@@ -1,0 +1,14 @@
+{
+  "rules": {
+    "terminology": {
+      // Load default terms (see terms.jsonc in the repository)
+      "defaultTerms": true,
+      "exclude": [
+        "web[- ]?site(s)?",
+        "build system(s)?",
+        "e-mail(s)?",
+        "front[- ]end(s)?"
+      ]
+    }
+  }
+}
