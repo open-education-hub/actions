@@ -17,7 +17,7 @@ runs:
       uses: tj-actions/changed-files@v37
       with:
         files: |
-          *.md
+          **/*.md
 
     - name: Setup Environment
       shell: bash
