@@ -25,8 +25,8 @@ runs:
         wget -O config-action.zip -q https://github.com/security-summer-school/actions/archive/refs/heads/main.zip
         unzip -q config-action.zip -d config-action
         mkdir .linter-config
-        mv config-action/actions-main/super-linter/* .linter-config
-        mv config-action/actions-main/super-linter/.jscpd.json .linter-config
+        mv config-action/actions-main/super-linter/* .linter-config/
+        mv config-action/actions-main/super-linter/.jscpd.json .linter-config/
 
     - name: Lint Code Base
       uses: github/super-linter/slim@v4
