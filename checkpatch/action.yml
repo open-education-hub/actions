@@ -1,13 +1,13 @@
-name: 'Checkpatch'
-description: 'Run checkpatch.pl with configured options'
+name: "Checkpatch"
+description: "Run checkpatch.pl with configured options"
 inputs:
   GITHUB_TOKEN:
-    description: 'GitHub token'
-    default: ''
+    description: "GitHub token"
+    default: ""
     required: false
 
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - name: Calculate PR commits + 1
       run: echo "PR_FETCH_DEPTH=$(( ${{ github.event.pull_request.commits }} + 1 ))" >> $GITHUB_ENV
@@ -20,7 +20,7 @@ runs:
         fetch-depth: ${{ env.PR_FETCH_DEPTH }}
 
     - name: Download checkpatch config file
-      run: wget https://raw.githubusercontent.com/security-summer-school/actions/main/checkpatch/checkpatch.conf -O ${{github.workspace}}/.checkpatch.conf
+      run: wget https://raw.githubusercontent.com/open-education-hub/actions/main/checkpatch/checkpatch.conf -O ${{github.workspace}}/.checkpatch.conf
       shell: bash
 
     - name: Run checkpatch review

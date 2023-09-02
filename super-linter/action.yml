@@ -2,16 +2,16 @@ name: Super-Linter
 description: Lint code base using GitHub Super-Linter
 inputs:
   GITHUB_TOKEN:
-    description: 'GitHub token'
-    default: ''
+    description: "GitHub token"
+    default: ""
     required: true
   DEFAULT_BRANCH:
-    description: 'Default branch to use for validation'
-    default: 'master'
+    description: "Default branch to use for validation"
+    default: "master"
     required: false
 
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - name: Checkout Code
       uses: actions/checkout@v3
@@ -22,7 +22,7 @@ runs:
     - name: Setup Environment
       shell: bash
       run: |
-        wget -O config-action.zip -q https://github.com/security-summer-school/actions/archive/refs/heads/main.zip
+        wget -O config-action.zip -q https://github.com/open-education-hub/actions/archive/refs/heads/main.zip
         unzip -q config-action.zip -d config-action
         mkdir .linter-config
         mv config-action/actions-main/super-linter/* .linter-config/

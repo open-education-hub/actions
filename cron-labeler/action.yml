@@ -2,12 +2,12 @@ name: Cron Pull Request Labeler
 description: Automatically add labels to pull requests on a schedule
 inputs:
   GITHUB_TOKEN:
-    description: 'GitHub token'
-    default: ''
+    description: "GitHub token"
+    default: ""
     required: true
 
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - name: Checkout
       uses: actions/checkout@v3
@@ -15,11 +15,11 @@ runs:
     - name: Setup Environment
       shell: bash
       run: |
-        wget -O config-action.zip -q https://github.com/security-summer-school/actions/archive/refs/heads/main.zip
+        wget -O config-action.zip -q https://github.com/open-education-hub/actions/archive/refs/heads/main.zip
         unzip -q config-action.zip -d config-action
         mkdir .labeler
         mv config-action/actions-main/labeler/* .labeler
-    
+
     - name: Add topic and area labels
       uses: fjeremic/cron-labeler@0.2.0
       with:
