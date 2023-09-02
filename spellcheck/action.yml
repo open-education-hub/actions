@@ -1,13 +1,13 @@
-name: 'Spellcheck'
+name: "Spellcheck"
 description: Check for spelling mistakes
 inputs:
   GITHUB_TOKEN:
-    description: 'GitHub token'
-    default: ''
+    description: "GitHub token"
+    default: ""
     required: false
 
 runs:
-  using: 'composite'
+  using: "composite"
   steps:
     - name: Checkout Code
       uses: actions/checkout@v3
@@ -22,7 +22,7 @@ runs:
     - name: Setup Environment
       shell: bash
       run: |
-        wget -O config-action.zip -q https://github.com/security-summer-school/actions/archive/refs/heads/main.zip
+        wget -O config-action.zip -q https://github.com/open-education-hub/actions/archive/refs/heads/main.zip
         unzip -q config-action.zip -d config-action
         [ ! -f ".spellcheck.yml" ] && mv config-action/actions-main/spellcheck/config/spellcheck.yml .spellcheck.yml
         [ ! -f ".wordlist.txt" ] && mv config-action/actions-main/spellcheck/config/wordlist.txt .wordlist.txt
