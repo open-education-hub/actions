@@ -7,5 +7,5 @@ This repository contains a collection of actions for GitHub that can be used in 
 - **`Checkpatch`** - Checks the code style
 - **`Super-Linter`** - Checks the code style
 - **`Labeler`** - Adds labels to pull requests
-- **Cron Labeler** - Adds labels to pull requests based on cron
-- **Spellchecker** - Checks spelling
+- **`Cron Labeler`** - Adds labels to pull requests based on cron
+- **`Spellchecker`** - Checks spelling
