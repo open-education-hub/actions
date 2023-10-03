@@ -28,7 +28,6 @@ runs:
         mv config-action/actions-main/super-linter/* .linter-config/
         mv config-action/actions-main/super-linter/.jscpd.json .linter-config/
         mv config-action/actions-main/super-linter/.textlintrc .linter-config/
-        mv config-action/actions-main/super-linter/CPPLINT.cfg .linter-config/
 
     - name: Lint Code Base
       uses: github/super-linter/slim@v4
