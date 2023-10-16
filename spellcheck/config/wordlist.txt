@@ -200,3 +200,6 @@ writeable
 xargs
 yaml
 yml
+EET
+MSTeams
+resubmission
