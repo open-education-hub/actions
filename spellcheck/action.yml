@@ -26,6 +26,7 @@ runs:
         unzip -q config-action.zip -d config-action
         [ ! -f ".spellcheck.yml" ] && mv config-action/actions-main/spellcheck/config/spellcheck.yml .spellcheck.yml
         [ ! -f ".wordlist.txt" ] && mv config-action/actions-main/spellcheck/config/wordlist.txt .wordlist.txt
+        [ ! -f ".names.txt" ] && mv config-action/actions-main/spellcheck/config/names.txt .wordlist.txt
 
     - name: Spellcheck
       uses: rojopolis/spellcheck-github-actions@v0
