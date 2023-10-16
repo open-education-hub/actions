@@ -3,9 +3,11 @@
 function strip_words(line) {
   const URL_REGEX = new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&//=]*)?/gi);
   const QUOTED_WORD_REGEX = new RegExp(/\`(.*?)\`|\"(.*?)\"/g)
+  const FLOAT_REGEX = new RegExp(/[-+]?\b\d+\.\d+\b/g)
   const IGNORED_REGEXES = [
     URL_REGEX,
     QUOTED_WORD_REGEX,
+    FLOAT_REGEX,
     'i.e.',
     'e.g.',
     'etc.',
