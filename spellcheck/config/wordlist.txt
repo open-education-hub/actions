@@ -203,3 +203,10 @@ yml
 EET
 MSTeams
 resubmission
+uncomment
+destructor
+destructors
+deallocate
+deallocates
+deallocating
+deallocation
