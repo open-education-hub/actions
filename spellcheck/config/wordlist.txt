@@ -104,6 +104,7 @@ linters
 linux
 lookups
 loopback
+localhost
 ltrace
 macos
 macs
@@ -145,6 +146,7 @@ rbac
 readme
 reddit
 redistributions
+repo
 retransmits
 ro
 rodata
