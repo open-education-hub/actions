@@ -212,3 +212,8 @@ deallocate
 deallocates
 deallocating
 deallocation
+Minishell
+Minishell
+minishell's
+dup
+Valgrind
