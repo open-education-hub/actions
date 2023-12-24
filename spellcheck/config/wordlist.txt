@@ -218,3 +218,15 @@ Minishell
 minishell's
 dup
 Valgrind
+modularity
+miscellanea
+antiderivative
+normals
+CTAN
+CRAN
+CPAN
+ANOVA
+univariate
+invertible
+Jacobian
+extrema
