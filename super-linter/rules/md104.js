@@ -34,9 +34,28 @@ module.exports = {
       actual_lines.forEach((line, index, arr) => {
         line = strip_words(line)
         let outside = true;
-		let count = 0;
+	let count = 0;
+	let escaped = false;
+	let prev_dollar = false
+	let latex_inline = false;
+	let latex_block = false;
 		Array.from(line).forEach((char) => {
-			if ((char == "." || char == "?" || char == "!" || char == ";") && outside) {
+			if (char == "\\")
+				escaped = true;
+			else
+				escaped = false;
+
+			if ((char == "$") && !escaped && outside) {
+				if (prev_dollar) {
+					latex_block = !latex_block;
+					prev_dollar = false
+				} else {
+					latex_inline = !latex_inline;
+					prev_dollar = true;
+				}
+			}
+
+			if ((char == "." || char == "?" || char == "!" || char == ";") && outside && !latex_block && !latex_inline) {
 				count++;
 			}
 			if (char == "`") outside = !outside;
