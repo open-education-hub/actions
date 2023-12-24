@@ -13,6 +13,7 @@ function strip_words(line) {
     'i.e.',
     'e.g.',
     'etc.',
+    'vs.',
     '...'
   ]
 
