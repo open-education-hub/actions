@@ -230,3 +230,4 @@ univariate
 invertible
 Jacobian
 extrema
+subdirectory
