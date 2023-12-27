@@ -231,3 +231,9 @@ invertible
 Jacobian
 extrema
 subdirectory
+incentivize
+incentivizes
+incentivizing
+cryptocurrencies
+SmileyCoin
+SmileyCoins
