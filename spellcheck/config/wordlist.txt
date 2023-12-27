@@ -239,3 +239,6 @@ SmileyCoin
 SmileyCoins
 facto
 customizable
+walkthrough
+walkthroughs
+granularly
