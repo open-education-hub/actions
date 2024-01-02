@@ -7,7 +7,8 @@
         "web[- ]?site(s)?",
         "build system(s)?",
         "e-mail(s)?",
-        "front[- ]end(s)?"
+        "front[- ]end(s)?",
+        "Internet"
       ]
     }
   }
