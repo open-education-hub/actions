@@ -30,7 +30,7 @@ runs:
         mv config-action/actions-main/super-linter/.textlintrc .linter-config/
 
     - name: Lint Code Base
-      uses: github/super-linter/slim@v4
+      uses: github/super-linter/slim@v5
       env:
         # Don't check already existent files
         VALIDATE_ALL_CODEBASE: false
@@ -38,6 +38,7 @@ runs:
         VALIDATE_CLANG_FORMAT: false
         VALIDATE_BASH_EXEC: false
         VALIDATE_HTML: false
+        VALIDATE_EDITORCONFIG: false
         VALIDATE_CSS: false
         VALIDATE_PYTHON_FLAKE8: false
         VALIDATE_PYTHON_ISORT: false
