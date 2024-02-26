@@ -416,4 +416,5 @@ Kraft
 KraftKit
 Kraftfile
 subfolder
+subfolders
 js
