@@ -418,3 +418,7 @@ Kraftfile
 subfolder
 subfolders
 js
+textbox
+textboxes
+multithreaded
+multithreading
