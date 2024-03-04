@@ -5,8 +5,11 @@ matrix:
     ignore-case: true
   dictionary:
     wordlists:
+    - .acronyms.txt
+    - .people_names.txt
+    - .other_names.txt
+    - .technical.txt
     - .wordlist.txt
-    - .names.txt
     encoding: utf-8
   pipeline:
   - pyspelling.filters.markdown:

@@ -35,8 +35,11 @@ runs:
         wget -O config-action.zip -q https://github.com/open-education-hub/actions/archive/refs/heads/main.zip
         unzip -q config-action.zip -d config-action
         [ ! -f ".spellcheck.yml" ] && mv config-action/actions-main/spellcheck/config/spellcheck.yml .spellcheck.yml
+        [ ! -f ".acronyms.txt" ] && mv config-action/actions-main/spellcheck/config/acronyms.txt .acronyms.txt
+        [ ! -f ".other_names.txt" ] && mv config-action/actions-main/spellcheck/config/other_names.txt .other_names.txt
+        [ ! -f ".people_names.txt" ] && mv config-action/actions-main/spellcheck/config/people_names.txt .people_names.txt
+        [ ! -f ".technical.txt" ] && mv config-action/actions-main/spellcheck/config/technical.txt .technical.txt
         [ ! -f ".wordlist.txt" ] && mv config-action/actions-main/spellcheck/config/wordlist.txt .wordlist.txt
-        [ ! -f ".names.txt" ] && mv config-action/actions-main/spellcheck/config/names.txt .names.txt
 
     - name: Spellcheck
       if: steps.changed-files.outputs.any_changed  == 'true'
