@@ -8,6 +8,10 @@ bitwise
 breakpoint
 bytestring
 callee
+cast
+casted
+casting
+casts
 cgroupstats
 charset
 cheatsheet
