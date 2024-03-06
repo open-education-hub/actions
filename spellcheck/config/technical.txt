@@ -65,6 +65,7 @@ encodings
 endian
 endianness
 executables
+FaaS
 filesystem
 filesystems
 frontend
@@ -76,6 +77,7 @@ hackathons
 hardcoded
 HPC
 hypertext
+IaaS
 inode
 inodes
 installable
@@ -106,6 +108,7 @@ nack
 namespace
 namespaces
 namespacing
+PaaS
 plaintext
 POSIX
 preallocate
@@ -124,6 +127,7 @@ ro
 rodata
 runtime
 runtimes
+SaaS
 sandboxed
 sandboxing
 scanf
