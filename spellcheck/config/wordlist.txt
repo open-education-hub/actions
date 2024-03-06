@@ -2,6 +2,7 @@ assignee
 assignees
 autograding
 centric
+composable
 curation
 customizable
 decrement
@@ -16,6 +17,7 @@ etag
 extractable
 extrema
 facto
+featureful
 gamification
 granularly
 grayscale
@@ -36,6 +38,10 @@ lookups
 mentee
 mentees
 merchantability
+minimalist
+minimalistic
+minimalistics
+minimalists
 miscellanea
 mitigate
 mitigated
@@ -80,6 +86,7 @@ timespan
 todo
 todos
 univariate
+unmodifiable
 validator
 validators
 walkthrough
