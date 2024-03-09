@@ -16,6 +16,7 @@ casted
 casting
 casts
 cgroupstats
+changelog
 charset
 cheatsheet
 checksums
@@ -66,6 +67,7 @@ endian
 endianness
 executables
 FaaS
+favicon
 filesystem
 filesystems
 frontend
@@ -109,6 +111,7 @@ namespace
 namespaces
 namespacing
 PaaS
+permalink
 plaintext
 POSIX
 preallocate
@@ -140,6 +143,8 @@ subdirectories
 subdirectory
 subfolder
 subfolders
+submodule
+submodules
 substring
 substrings
 symlink
