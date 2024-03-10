@@ -19,7 +19,11 @@ Internet
 Jacobian
 Kali
 Kraft
+Kraft's
+KraftCloud
+KraftCloud's
 KraftKit
+KraftKit's
 Kraftfile
 LinkedIn
 Linux
@@ -39,6 +43,8 @@ Pandoc
 Pwndbg
 Pwndgb
 Pwntools
+Prisma
+Prisma's
 README
 Reddit
 SmileyCoin
