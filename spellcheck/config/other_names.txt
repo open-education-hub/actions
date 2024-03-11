@@ -47,6 +47,7 @@ Prisma
 Prisma's
 README
 Reddit
+Rustup
 SmileyCoin
 SmileyCoins
 StackExchange
