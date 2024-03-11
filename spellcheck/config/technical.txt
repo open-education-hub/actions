@@ -84,6 +84,7 @@ inode
 inodes
 installable
 IoT
+iperf
 kibibytes
 KVM
 libcall
@@ -137,6 +138,7 @@ scanf
 sharealike
 shellcode
 shellcodes
+speedtest
 src
 subcommand
 subdirectories
