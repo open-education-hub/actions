@@ -5,6 +5,9 @@ antiderivative
 asm
 auth
 backend
+benchmark
+benchmarking
+benchmarks
 bitwise
 breakpoint
 busybox
@@ -93,7 +96,9 @@ linter
 linters
 localhost
 loopback
+Lua
 makefile
+makefiles
 mdev
 mebibytes
 memc
@@ -103,10 +108,13 @@ Microkernel
 Microkernels
 middleware
 minishell's
+multiprocess
 multithreaded
 multithreading
 multiuse
 musl
+mutex
+mutexes
 nack
 namespace
 namespaces
@@ -139,6 +147,8 @@ sharealike
 shellcode
 shellcodes
 speedtest
+spinlock
+spinlocks
 src
 subcommand
 subdirectories
