@@ -15,6 +15,7 @@ DragonflyBSD
 dup
 FreeBSD
 Ghidra
+Ghidra's
 GitHub
 GitLab
 Grammarly
