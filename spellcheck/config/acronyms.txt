@@ -68,6 +68,7 @@ LANs
 LaTeX
 LLM
 LLMs
+LLVM
 MAC
 MACs
 MD5
@@ -78,6 +79,7 @@ NX
 OCW
 OER
 OERs
+OpenGL
 OSI
 OWASP
 PAE

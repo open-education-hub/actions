@@ -11,10 +11,13 @@ benchmark
 benchmarking
 benchmarks
 bitwise
+blockchain
+blockchains
 bogosort
 breakpoint
 busybox
 busyboxes
+bytecode
 bytestring
 callee
 cast
@@ -200,6 +203,7 @@ virtualized
 virtualizing
 wargame
 wargames
+wasmer
 xargs
 Xen
 yml
