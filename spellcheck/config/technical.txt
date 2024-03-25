@@ -7,7 +7,9 @@ architectures
 argp
 argv
 asm
+async
 auth
+await
 backend
 benchmark
 benchmarking
@@ -61,6 +63,8 @@ decryptions
 decrypts
 decypted
 decypting
+deduplication
+deduplications
 demangle
 demangled
 demangler
@@ -132,6 +136,10 @@ microcontroller
 microcontrollers
 Microkernel
 Microkernels
+microservice
+microservices
+microVM
+microVMs
 middleware
 minishell's
 mov
