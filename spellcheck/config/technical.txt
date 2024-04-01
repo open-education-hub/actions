@@ -81,6 +81,7 @@ dest
 destructor
 destructors
 disassembler
+dword
 eax
 encodings
 endian
@@ -102,6 +103,7 @@ hardcoded
 HPC
 hypertext
 IaaS
+idiv
 inode
 inodes
 installable
@@ -126,6 +128,10 @@ linter
 linters
 localhost
 loopback
+loope
+loopne
+loopnz
+loopz
 Lua
 makefile
 makefiles
@@ -143,6 +149,7 @@ microVMs
 middleware
 minishell's
 mov
+mul
 multiprocess
 multithreaded
 multithreading
