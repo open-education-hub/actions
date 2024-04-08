@@ -19,6 +19,7 @@ extrema
 facto
 featureful
 gamification
+Getter
 granularly
 grayscale
 immunities
@@ -29,6 +30,7 @@ increment
 incremented
 incrementing
 increments
+instantiation
 integration
 integrations
 invertible
@@ -80,6 +82,7 @@ scalability
 scalable
 shrinked
 storyline
+subtask
 syntaxes
 templated
 timespan
