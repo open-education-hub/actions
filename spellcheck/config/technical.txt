@@ -100,8 +100,11 @@ executables
 FaaS
 favicon
 fgets
+FIFO
+FIFOs
 filesystem
 filesystems
+fopen
 frontend
 gibibytes
 glibc
