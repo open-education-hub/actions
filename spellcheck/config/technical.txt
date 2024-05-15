@@ -90,6 +90,7 @@ endstruc
 executables
 FaaS
 favicon
+fgets
 filesystem
 filesystems
 frontend
@@ -205,6 +206,7 @@ speedtest
 spinlock
 spinlocks
 src
+stdin
 struc
 subcommand
 subdirectories
@@ -253,5 +255,6 @@ wargames
 wasmer
 xargs
 xchg
+xDEADCODE
 Xen
 yml
