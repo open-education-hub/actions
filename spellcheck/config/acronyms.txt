@@ -127,6 +127,7 @@ SSL
 SSP
 SVG
 SVGs
+sysinfo
 TCP
 TLD
 TLDR
