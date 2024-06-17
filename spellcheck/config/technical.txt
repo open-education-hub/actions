@@ -36,13 +36,16 @@ checksums
 ciphertext
 cmp
 codebase
+Codebook
 comparator
 comparators
 computer
 computers
 configurability
+Crypto
 cryptocurrencies
 cryptocurrency
+cryptographic
 cybersecurity
 datagrams
 deallocate
@@ -58,6 +61,7 @@ decompilers
 decompiles
 decompiling
 decrypt
+decrypting
 decryption
 decryptions
 decrypts
@@ -84,6 +88,7 @@ disassembler
 dword
 eax
 encodings
+encryptions
 endian
 endianness
 endstruc
@@ -165,6 +170,7 @@ namespace
 namespaces
 namespacing
 OllyDbg
+OTP's
 PaaS
 permalink
 plaintext
@@ -257,4 +263,6 @@ xargs
 xchg
 xDEADCODE
 Xen
+XOR'd
+XORing
 yml

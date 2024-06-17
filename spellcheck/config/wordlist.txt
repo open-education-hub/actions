@@ -63,6 +63,9 @@ preprocessed
 preprocesses
 preprocessing
 programmatically
+pycryptodome
+PyCryptoDome
+qquad
 redistributions
 reimplement
 reimplemented
