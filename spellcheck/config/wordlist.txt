@@ -1,5 +1,14 @@
+Bourne
+Getter
+Mafs
+PyCryptoDome
+Util
+anyone
 assignee
 assignees
+autocompletion
+autofilled
+autofills
 autograding
 centric
 composable
@@ -11,6 +20,7 @@ decrementing
 decrements
 digitalization
 digitalized
+directory
 discoverable
 downloader
 ecret
@@ -20,7 +30,6 @@ extrema
 facto
 featureful
 gamification
-Getter
 granularly
 grayscale
 immunities
@@ -55,6 +64,7 @@ nformat
 nodelay
 noncommercial
 normals
+obtained
 pre
 prepend
 prepended
@@ -66,7 +76,6 @@ preprocesses
 preprocessing
 programmatically
 pycryptodome
-PyCryptoDome
 qquad
 redistributions
 reimplement
@@ -86,6 +95,7 @@ roadmaps
 scalability
 scalable
 shrinked
+simplicity
 storyline
 subtask
 syntaxes
@@ -95,7 +105,6 @@ todo
 todos
 univariate
 unmodifiable
-Util
 validator
 validators
 walkthrough
