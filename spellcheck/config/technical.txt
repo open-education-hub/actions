@@ -126,6 +126,7 @@ gotos
 hackathon
 hackathons
 hardcoded
+hostname
 hypertext
 idiv
 inode
