@@ -66,6 +66,7 @@ cryptocurrencies
 cryptocurrency
 cryptographic
 cybersecurity
+datagram
 datagrams
 deallocate
 deallocates
@@ -182,6 +183,7 @@ nack
 namespace
 namespaces
 namespacing
+netstat
 permalink
 plaintext
 pointer
