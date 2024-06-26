@@ -53,8 +53,10 @@ OpenEdu
 OpenEducationHub
 OpenSSL
 Pandoc
+Pinger
 Podman
 POLITEHNICA
+PornHub
 Prisma
 Prisma's
 Pwndbg
@@ -64,6 +66,7 @@ qsort
 README
 Reddit
 Rustup
+Spotify
 SmileyCoin
 SmileyCoins
 StackExchange
@@ -73,6 +76,7 @@ strcpy
 sudo
 SunOS
 systemd
+Unaccessible
 Unikraft
 Unikraft's
 Valgrind
