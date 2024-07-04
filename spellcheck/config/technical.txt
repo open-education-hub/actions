@@ -222,6 +222,7 @@ speedtest
 spinlock
 spinlocks
 src
+stateful
 stdin
 struc
 subcommand
@@ -233,6 +234,7 @@ submodule
 submodules
 substring
 substrings
+superglobal
 symlink
 symlinked
 symlinking
