@@ -1,3 +1,4 @@
+Analytics
 Atlassian
 Bitbucket
 Bitdefender
@@ -66,6 +67,7 @@ qsort
 README
 Reddit
 Rustup
+SecLists
 Spotify
 SmileyCoin
 SmileyCoins
