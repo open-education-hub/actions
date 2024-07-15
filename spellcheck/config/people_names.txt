@@ -7,6 +7,7 @@ Blazakis
 Bruijn
 Deaconescu
 Dionysus
+Domas
 Duțu
 Jumărea
 Liza
