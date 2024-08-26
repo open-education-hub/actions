@@ -1,3 +1,4 @@
+Actix
 Analytics
 Atlassian
 Bitbucket
@@ -13,12 +14,15 @@ Dockerfile
 Docsy
 Docusaurus
 DragonflyBSD
+DragonflyDB
 dup
+Findtime
 FreeBSD
 Ghidra
 Ghidra's
 GitHub
 GitLab
+Grafana
 Grammarly
 Internet
 Jacobian
@@ -77,6 +81,7 @@ strcmp
 strcpy
 sudo
 SunOS
+SurrealDB
 systemd
 Unaccessible
 Unikraft
