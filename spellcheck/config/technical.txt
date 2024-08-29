@@ -40,6 +40,7 @@ blockchain
 blockchains
 bogosort
 breakpoint
+bruteforce
 busybox
 busyboxes
 bytecode
@@ -208,6 +209,7 @@ reusability
 reusable
 ro
 rodata
+ROPgadget
 runtime
 runtimes
 sandboxed
