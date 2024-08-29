@@ -22,6 +22,8 @@ Rivest
 Sergiu
 Shamir
 Ștefan
+Sun
 Tanenbaum's
 Teodor
+Tzu
 Weisz
