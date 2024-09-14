@@ -171,6 +171,7 @@ microservices
 middleware
 minishell's
 mov
+mtrace
 mul
 multiprocess
 multithreaded
@@ -260,6 +261,8 @@ unmapping
 unmaps
 urlencode
 usr
+Valgrind
+Valgrind's
 variadic
 virtualise
 virtualised
