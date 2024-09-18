@@ -75,6 +75,7 @@ SecLists
 Spotify
 SmileyCoin
 SmileyCoins
+Solaris
 StackExchange
 strace
 strcmp
