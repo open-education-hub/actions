@@ -29,12 +29,12 @@ Jacobian
 js
 Kali
 Kraft
+Kraft's
 KraftCloud
 KraftCloud's
 Kraftfile
 KraftKit
 KraftKit's
-Kraft's
 ld
 libc
 LinkedIn
@@ -72,10 +72,10 @@ README
 Reddit
 Rustup
 SecLists
-Spotify
 SmileyCoin
 SmileyCoins
 Solaris
+Spotify
 StackExchange
 strace
 strcmp
@@ -87,6 +87,7 @@ systemd
 Unaccessible
 Unikraft
 Unikraft's
+upb
 Valgrind
 VirtualBox
 vmchecker
