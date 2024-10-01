@@ -277,3 +277,4 @@ xDEADCODE
 Xen
 XOR'd
 XORing
+xxd
