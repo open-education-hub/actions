@@ -112,6 +112,7 @@ validator
 validators
 walkthrough
 walkthroughs
+WhatsApp
 wordlist
 writeable
 writeup

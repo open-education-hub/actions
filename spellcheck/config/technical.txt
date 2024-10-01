@@ -32,6 +32,7 @@ casts
 cgroupstats
 changelog
 charset
+ChatGPT
 cheatsheet
 checksums
 ciphertext
@@ -268,6 +269,7 @@ virtualising
 virtualize
 virtualized
 virtualizing
+VMware
 wargame
 wargames
 wasmer
