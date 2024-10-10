@@ -164,6 +164,7 @@ mov
 mtrace
 mul
 multiprocess
+multithread
 multithreaded
 multithreading
 multiuse
