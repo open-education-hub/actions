@@ -19,6 +19,7 @@ blockchain
 blockchains
 bogosort
 breakpoint
+bruteforce
 busybox
 busyboxes
 bytecode
@@ -31,19 +32,24 @@ casts
 cgroupstats
 changelog
 charset
+ChatGPT
 cheatsheet
 checksums
 ciphertext
 cmp
 codebase
+Codebook
 comparator
 comparators
 computer
 computers
 configurability
+Crypto
 cryptocurrencies
 cryptocurrency
+cryptographic
 cybersecurity
+datagram
 datagrams
 deallocate
 deallocates
@@ -58,6 +64,8 @@ decompilers
 decompiles
 decompiling
 decrypt
+decrypted
+decrypting
 decryption
 decryptions
 decrypts
@@ -84,6 +92,7 @@ disassembler
 dword
 eax
 encodings
+encryptions
 endian
 endianness
 endstruc
@@ -91,8 +100,11 @@ executables
 FaaS
 favicon
 fgets
+FIFO
+FIFOs
 filesystem
 filesystems
+fopen
 frontend
 gibibytes
 glibc
@@ -102,6 +114,7 @@ gotos
 hackathon
 hackathons
 hardcoded
+hostname
 HPC
 hypertext
 IaaS
@@ -151,8 +164,10 @@ microVMs
 middleware
 minishell's
 mov
+mtrace
 mul
 multiprocess
+multithread
 multithreaded
 multithreading
 multiuse
@@ -164,7 +179,9 @@ nack
 namespace
 namespaces
 namespacing
+netstat
 OllyDbg
+OTP's
 PaaS
 permalink
 plaintext
@@ -191,6 +208,7 @@ reusability
 reusable
 ro
 rodata
+ROPgadget
 runtime
 runtimes
 SaaS
@@ -206,6 +224,7 @@ speedtest
 spinlock
 spinlocks
 src
+stateful
 stdin
 struc
 subcommand
@@ -217,6 +236,7 @@ submodule
 submodules
 substring
 substrings
+superglobal
 symlink
 symlinked
 symlinking
@@ -235,6 +255,7 @@ txt
 uapi
 unallocated
 uncomment
+unexported
 unikernel
 unikernels
 unmap
@@ -243,6 +264,8 @@ unmapping
 unmaps
 urlencode
 usr
+Valgrind
+Valgrind's
 variadic
 virtualise
 virtualised
@@ -250,6 +273,7 @@ virtualising
 virtualize
 virtualized
 virtualizing
+VMware
 wargame
 wargames
 wasmer
@@ -257,4 +281,6 @@ xargs
 xchg
 xDEADCODE
 Xen
-yml
+XOR'd
+XORing
+xxd
