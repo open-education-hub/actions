@@ -55,6 +55,7 @@ deallocate
 deallocates
 deallocating
 deallocation
+deallocations
 decapsulation
 decompilation
 decompile
@@ -122,6 +123,8 @@ idiv
 inode
 inodes
 installable
+instantiation
+instantiations
 instruction
 instructions
 IoT
@@ -195,6 +198,10 @@ preallocates
 preallocating
 prebuilt
 precompiled
+preload
+preloading
+preloaded
+preloads
 preprocessor
 printf
 pseudocode
@@ -255,6 +262,9 @@ txt
 uapi
 unallocated
 uncomment
+uncommented
+uncommenting
+uncomments
 unexported
 unikernel
 unikernels
