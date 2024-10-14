@@ -52,6 +52,7 @@ cybersecurity
 datagram
 datagrams
 deallocate
+deallocated
 deallocates
 deallocating
 deallocation
@@ -145,6 +146,7 @@ linktitle
 linter
 linters
 localhost
+lookaside
 loopback
 loope
 loopne
