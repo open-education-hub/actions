@@ -201,8 +201,8 @@ preallocating
 prebuilt
 precompiled
 preload
-preloading
 preloaded
+preloading
 preloads
 preprocessor
 printf
@@ -274,6 +274,8 @@ unmap
 unmapped
 unmapping
 unmaps
+unstage
+unstaged
 urlencode
 usr
 Valgrind
