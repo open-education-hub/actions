@@ -1,8 +1,13 @@
 Bourne
+Deus
 Getter
+Loch
+Machina
 Mafs
+Ness
 PyCryptoDome
 Util
+WhatsApp
 anyone
 assignee
 assignees
@@ -40,6 +45,7 @@ increment
 incremented
 incrementing
 increments
+initialisations
 instantiation
 integration
 integrations
@@ -65,8 +71,11 @@ modularity
 nformat
 nodelay
 noncommercial
+nonvoluntary
 normals
 obtained
+parallelising
+parallelize
 parallelized
 phonebook
 pre
@@ -109,11 +118,11 @@ todo
 todos
 univariate
 unmodifiable
+unsafety
 validator
 validators
 walkthrough
 walkthroughs
-WhatsApp
 wordlist
 writeable
 writeup
