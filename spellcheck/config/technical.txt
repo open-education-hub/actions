@@ -221,6 +221,7 @@ namespacing
 netstat
 nocoop
 orchestrator
+parallelise
 permalink
 pidof
 plaintext
@@ -246,6 +247,7 @@ pthreads
 reentrancy
 reentrant
 repo
+requeue
 resd
 resw
 ret
@@ -260,6 +262,7 @@ runtimes
 sandboxed
 sandboxing
 scanf
+scheduler's
 sharealike
 shellcode
 shellcodes
@@ -289,6 +292,7 @@ symlinked
 symlinking
 symlinks
 syscall
+syscall's
 syscalls
 sysinfo
 textbox
@@ -312,6 +316,7 @@ unmap
 unmapped
 unmapping
 unmaps
+unoptimized
 unstage
 unstaged
 urlencode
