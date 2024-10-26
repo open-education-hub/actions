@@ -1,6 +1,7 @@
 Adleman
 Aleph
 Amdahl
+Amdahl's
 Apostolescu
 Babu
 Blazakis
