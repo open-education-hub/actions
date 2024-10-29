@@ -17,6 +17,8 @@ autofills
 autograding
 centric
 composable
+config
+configs
 curation
 customizable
 decrement
@@ -90,6 +92,8 @@ preprocessing
 programmatically
 pycryptodome
 qquad
+redirection
+redirections
 redistributions
 reimplement
 reimplemented
