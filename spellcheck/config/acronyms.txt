@@ -192,5 +192,6 @@ ZB
 ZF
 ZSH
 ZiB
+dev
 eBPF
 tmp
