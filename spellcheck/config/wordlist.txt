@@ -25,7 +25,7 @@ decrement
 decremented
 decrementing
 decrements
-descriptor’s
+descriptor's
 digitalization
 digitalized
 directory
