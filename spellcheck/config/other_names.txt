@@ -3,6 +3,7 @@ Analytics
 Atlassian
 Bitbucket
 Bitdefender
+Bittorent
 BuildKit
 Coursera
 CrackStation
@@ -35,6 +36,7 @@ LinkedIn
 Linux
 MSTeams
 Microsystems
+Minecraft
 Minishell
 Moodle
 Nasm

@@ -3,6 +3,7 @@ CPython
 ChatGPT
 Codebook
 Crypto
+FDT
 FIFO
 FIFOs
 FaaS
@@ -17,6 +18,8 @@ KVM
 Lua
 Microkernel
 Microkernels
+NIC
+NIC's
 OTP's
 OllyDbg
 OpenMP
@@ -54,6 +57,7 @@ atomics
 auth
 await
 backend
+backends
 benchmark
 benchmarking
 benchmarks
