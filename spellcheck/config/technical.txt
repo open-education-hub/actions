@@ -35,6 +35,7 @@ TockOS
 ULTs
 VAS
 VMware
+VSCode
 Valgrind
 Valgrind's
 XNU
@@ -43,6 +44,7 @@ XORing
 Xen
 aarch
 allocator
+allocator's
 allocotors
 antiderivative
 architecture
@@ -182,6 +184,7 @@ jz
 kibibytes
 lea
 libcall
+libcalls
 linktitle
 linter
 linters
@@ -194,9 +197,11 @@ loopnz
 loopz
 makefile
 makefiles
+malloc
 mdev
 mebibytes
 memc
+memcheck
 microVM
 microVMs
 microcontroller
@@ -236,6 +241,7 @@ preallocate
 preallocated
 preallocates
 preallocating
+preallocation
 prebuilt
 precompiled
 prefetching
