@@ -76,6 +76,7 @@ Wireshark
 checksec
 cron
 dup
+init
 js
 ld
 libc
