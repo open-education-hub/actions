@@ -48,6 +48,7 @@ initialisations
 instantiation
 integration
 integrations
+Intra
 invertible
 licensor
 lifecycle
