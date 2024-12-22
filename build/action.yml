@@ -1,0 +1,60 @@
+name: "Build and push Docker Image"
+description: "Build and push Docker Image"
+inputs:
+  build_args:
+    description: build-args for docker build
+    required: false
+    type: string
+  build_contexts:
+    description: build-contexts for docker build
+    required: false
+    type: string
+  context:
+    description: path to use for docker build
+    default: .
+    required: false
+    type: string
+  dockerfile:
+    description: Dockerfile location
+    required: true
+    type: string
+  image:
+    description: Name of image
+    required: true
+    type: string
+  image_tag:
+    description: Docker image tag
+    required: true
+    type: string
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v3
+
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: Login to GitHub Container Registry
+      uses: docker/login-action@v3
+      with:
+        registry: ghcr.io
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Build and push
+      uses: docker/build-push-action@v5
+      with:
+        build-args: ${{ inputs.build_args }}
+        context: ${{ inputs.context }}
+        file: ${{ inputs.dockerfile }}
+        push: true
+        tags: ghcr.io/${{ github.repository_owner }}/${{ inputs.image }}:${{ inputs.image_tag }}
+        platforms: linux/amd64,linux/arm64
+        build-contexts: ${{ inputs.build_contexts }}
+        cache-from: type=gha
+        cache-to: type=gha,mode=max
