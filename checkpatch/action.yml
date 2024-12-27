@@ -23,6 +23,18 @@ runs:
       run: wget https://raw.githubusercontent.com/open-education-hub/actions/main/checkpatch/checkpatch.conf -O ${{github.workspace}}/.checkpatch.conf
       shell: bash
 
+    - name: Append ignored directories from .checkpatch.ignore to .checkpatch.conf
+      id: check_ignore
+      run: |
+        if [ -f .checkpatch.ignore ]; then
+          while read LINE; do
+            if [[ $LINE != \#* ]]; then
+              echo "--exclude $LINE " >> ${{github.workspace}}/.checkpatch.conf
+            fi;
+          done < .checkpatch.ignore;
+        fi && cat ${{github.workspace}}/.checkpatch.conf
+      shell: bash
+
     - name: Run checkpatch review
       uses: webispy/checkpatch-action@v9
       env:
