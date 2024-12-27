@@ -1,0 +1,27 @@
+name: "Typos"
+description: "Run crate-ci/typos using .github/.typos.toml as configuration file."
+
+runs:
+  using: "composite"
+  steps:
+    - name: Calculate PR commits + 1
+      run: echo "PR_FETCH_DEPTH=$(( ${{ github.event.pull_request.commits }} + 1 ))" >> $GITHUB_ENV
+      shell: bash
+
+    - name: Checkout PR HEAD
+      uses: actions/checkout@v4
+      with:
+        ref: ${{ github.event.pull_request.head.sha }}
+        fetch-depth: ${{ env.PR_FETCH_DEPTH }}
+
+    - name: Download typos config file if missing
+      run: |
+        if [ ! -f ${{github.workspace}}/.github/.typos.toml ]; then
+          wget https://raw.githubusercontent.com/open-education-hub/actions/main/typos/.typos.toml -O ${{github.workspace}}/.github/.typos.toml
+        fi
+      shell: bash
+
+    - name: Run Typos review
+      uses: crate-ci/typos@v1.28.4
+      with:
+        config: .github/.typos.toml
