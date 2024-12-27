@@ -9,3 +9,4 @@ This repository contains a collection of actions for GitHub that can be used in 
 - **`Labeler`** - Adds labels to pull requests
 - **`Cron Labeler`** - Adds labels to pull requests based on cron
 - **`Spellchecker`** - Checks spelling
+- **`Typos`** - Checks spelling
