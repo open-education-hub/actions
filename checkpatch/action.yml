@@ -28,7 +28,8 @@ runs:
       run: |
         if [ -f .checkpatch.ignore ]; then
           while read LINE; do
-            if [[ $LINE != \#* ]]; then
+            LINE=${LINE%%\#*}
+            if [[ -z "$LINE" ]]; then
               echo "--exclude $LINE " >> ${{github.workspace}}/.checkpatch.conf
             fi;
           done < .checkpatch.ignore;
