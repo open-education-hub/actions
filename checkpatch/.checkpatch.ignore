@@ -1,0 +1,7 @@
+# This is an example for .checkpatch.ignore
+# This file only takes effect if placed in the root of the repository.
+# Everything after '#' is considered a comment and ignored.
+#
+# To ignore a directory list it below:
+# Note: Only directories can be ignored, not individual files.
+checkpatch/
