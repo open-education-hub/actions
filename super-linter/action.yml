@@ -46,6 +46,7 @@ runs:
         VALIDATE_PYTHON_PYLINT: false
         VALIDATE_PHP_PSALM: false
         VALIDATE_PHP_PHPCS: false
+        VALIDATE_NATURAL_LANGUAGE: false # Use `typos` action for this
         LINTER_RULES_PATH: /.linter-config/
         DOCKERFILE_HADOLINT_FILE_NAME: config/hadolint.yml
         MARKDOWN_CONFIG_FILE: config/config.json
