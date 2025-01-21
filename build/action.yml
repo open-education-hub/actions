@@ -1,31 +1,27 @@
-name: "Build and push Docker Image"
 description: "Build and push Docker Image"
 inputs:
   build_args:
     description: build-args for docker build
     required: false
-    type: string
+    default: ""
   build_contexts:
     description: build-contexts for docker build
     required: false
-    type: string
+    default: ""
   context:
     description: path to use for docker build
-    default: .
+    default: ..
     required: false
-    type: string
   dockerfile:
     description: Dockerfile location
     required: true
-    type: string
   image:
     description: Name of image
     required: true
-    type: string
   image_tag:
     description: Docker image tag
     required: true
-    type: string
+    default: latest
 
 runs:
   using: "composite"
